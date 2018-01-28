@@ -1,0 +1,35 @@
+{
+  "name": "projekt6",
+  "version": "1.0.0",
+  "description": "Projekt zaliczeniowy web servis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eJNIK/web_serwis_proj6.git"
+  },
+  "author": "Jakub Ejnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eJNIK/web_serwis_proj6/issues"
+  },
+  "homepage": "https://github.com/eJNIK/web_serwis_proj6#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "mongodb": "^3.0.1",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.1.2",
+    "expect": "^22.1.0",
+    "jest": "^22.1.4",
+    "supertest": "^3.0.0"
+  }
+}
